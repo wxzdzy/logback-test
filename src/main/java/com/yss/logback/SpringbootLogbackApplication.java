@@ -15,12 +15,12 @@ public class SpringbootLogbackApplication {
 //    private final static Logger logger = LoggerFactory.getLogger(SpringbootLogbackApplication.class);
 
     public static void main(String[] args) {
-        new Thread(()->{
+    /*    new Thread(()->{
             for (int i=0;i<100;i++){
                 log.error("---test zhongxuxing666666666---"+i);
 
             }
-        }).start();
+        }).start();*/
         SpringApplication.run(SpringbootLogbackApplication.class, args);
     }
 
